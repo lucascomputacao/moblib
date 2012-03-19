@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<ViewFlipper android:layout_height="fill_parent"
+		android:layout_width="fill_parent" android:id="@+id/viewFlipper1">
+
+		<LinearLayout android:id="@+id/main_page_1"
+			android:orientation="vertical" android:layout_width="fill_parent"
+			android:layout_height="fill_parent">
+
+			<TableLayout android:layout_width="fill_parent"
+				android:id="@+id/mainFlipperTable1" android:layout_height="fill_parent">
+
+				<TableRow android:id="@+id/tableRow1" android:layout_width="wrap_content"
+					android:layout_height="wrap_content">
+
+					<ImageView android:id="@+id/bt_meus_livros" android:src="@drawable/bt_meus_livros"
+						android:layout_width="wrap_content" android:layout_height="wrap_content"
+						android:layout_weight="0.3" android:paddingRight="15px"></ImageView>
+
+					<ImageView android:id="@+id/bt_alertas" android:src="@drawable/bt_alertas"
+						android:layout_width="wrap_content" android:layout_height="wrap_content"
+						android:layout_weight="0.3"></ImageView>
+
+				</TableRow>
+
+				<TableRow android:id="@+id/tableRow2" android:layout_width="wrap_content"
+					android:layout_height="wrap_content">
+
+					<ImageView android:id="@+id/bt_busca" android:src="@drawable/bt_busca"
+						android:layout_width="wrap_content" android:layout_height="wrap_content"
+						android:layout_weight="0.3" android:paddingRight="15px"></ImageView>
+
+					<ImageView android:id="@+id/bt_favoritos" android:src="@drawable/bt_favoritos"
+						android:layout_width="wrap_content" android:layout_height="wrap_content"
+						android:layout_weight="0.3"></ImageView>
+
+				</TableRow>
+
+				<TableRow android:id="@+id/tableRow3" android:layout_width="wrap_content"
+					android:layout_height="wrap_content">
+
+					<ImageView android:id="@+id/bt_listas" android:src="@drawable/bt_listas"
+						android:layout_width="wrap_content" android:layout_height="wrap_content"
+						android:layout_weight="0.3" android:paddingRight="15px"></ImageView>
+
+					<ImageView android:id="@+id/bt_sincronizar" android:src="@drawable/bt_sincronizar"
+						android:layout_width="wrap_content" android:layout_height="wrap_content"
+						android:layout_weight="0.3"></ImageView>
+
+				</TableRow>
+
+			</TableLayout>
+		</LinearLayout>
+
+		<LinearLayout android:id="@+id/main_page_2"
+			android:orientation="vertical" android:layout_width="fill_parent"
+			android:layout_height="fill_parent">
+			<TableLayout android:layout_width="fill_parent"
+				android:id="@+id/mainFlipperTable2" android:layout_height="fill_parent">
+
+				<TableRow android:id="@+id/tableRow1" android:layout_width="wrap_content"
+					android:layout_height="wrap_content">
+
+					<ImageView android:id="@+id/bt_historico" android:src="@drawable/bt_historico"
+						android:layout_width="wrap_content" android:layout_height="wrap_content"
+						android:layout_weight="0.3" android:paddingRight="15px"></ImageView>
+
+					<ImageView android:id="@+id/bt_ir_para_o_site"
+						android:src="@drawable/bt_ir_para_o_site" android:layout_width="wrap_content"
+						android:layout_height="wrap_content" android:layout_weight="0.3"
+						android:paddingRight="15px"></ImageView>
+
+				</TableRow>
+
+				<TableRow android:id="@+id/tableRow2" android:layout_width="wrap_content"
+					android:layout_height="wrap_content">
+
+					<ImageView android:id="@+id/bt_comprar_livros"
+						android:src="@drawable/bt_comprar_livros" android:layout_width="wrap_content"
+						android:layout_height="wrap_content" android:layout_weight="0.3"
+						android:paddingRight="15px"></ImageView>
+
+					<ImageView android:id="@+id/bt_meus_dados" android:src="@drawable/bt_meus_dados"
+						android:layout_width="wrap_content" android:layout_height="wrap_content"
+						android:layout_weight="0.3" android:paddingRight="15px"></ImageView>
+
+				</TableRow>
+
+				<TableRow android:id="@+id/tableRow3" android:layout_width="wrap_content"
+					android:layout_height="wrap_content">
+
+					<ImageView android:id="@+id/bt_configuracoes"
+						android:src="@drawable/bt_configuracoes" android:layout_width="wrap_content"
+						android:layout_height="wrap_content" android:layout_weight="0.3"
+						android:paddingRight="15px"></ImageView>
+
+					<ImageView android:id="@+id/bt_ativar_desativar"
+						android:src="@drawable/bt_ativar_desativar" android:layout_width="wrap_content"
+						android:layout_height="wrap_content" android:layout_weight="0.3"
+						android:paddingRight="15px"></ImageView>
+
+				</TableRow>
+
+			</TableLayout>
+		</LinearLayout>
+	</ViewFlipper>
+</LinearLayout>
